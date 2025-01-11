@@ -1,3 +1,117 @@
-h1{
-    color: seagreen;
+/* Text font fira sans */
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Vinyl&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/* All web page */
+* {
+  margin: 0;
+  padding: 0;
 }
+/* Start Global Styles Section */
+/* Here button Section */
+.btn {
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  background: rgb(0, 106, 80);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  padding: 17px 34px 17px 34px;
+  border: none;
+}
+.btn:hover {
+  background-color: rgb(3, 41, 3);
+  color: rgb(235, 232, 228);
+  font-size: 16px;
+}
+/* End End Global Styles Section */
+
+/* Start Header Section Styles */
+.header-section {
+}
+#logo-title {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Fira Sans;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 110px;
+}
+nav > ul > li {
+  list-style: none;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: rgb(13, 128, 38);
+  font-size: 15px;
+}
+.btn-for-nav {
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 5px;
+  padding: 15px 30px 15px 30px;
+  font-family: sans-serif;
+}
+.btn-for-nav:hover {
+  background-color: rgb(33, 187, 33);
+  color: rgb(235, 232, 228);
+  font-size: 16px;
+}
+/* End Header Section Styles */
+
+/* Start Main Section Styles */
+#Section-1 {
+}
+.section-container {
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  width: 950px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 90px 80px 90px;
+  /* margin-left: 125px ;
+  margin-right: 125px; */
+  margin: 20px auto;
+}
+.container-title {
+  margin-right: 30px;
+}
+.sub-title {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.title-sce1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 500px;
+}
+.sec1-image {
+  margin: 0 auto;
+  padding: auto;
+}
+.Section-2{
+    
+}
+/* End Main Section Styles */
+
+/* Start Footer Section Styles */
+
+/* End Footer Section Styles */
