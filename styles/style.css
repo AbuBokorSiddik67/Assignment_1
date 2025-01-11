@@ -25,6 +25,7 @@
   color: rgb(235, 232, 228);
   font-size: 16px;
 }
+
 /* End End Global Styles Section */
 
 /* Start Header Section Styles */
@@ -107,8 +108,147 @@ nav > ul > li > a {
   margin: 0 auto;
   padding: auto;
 }
-.Section-2{
-    
+.Section-2 {
+}
+.text-1 {
+  margin: 90px 100px 25px 105px;
+}
+.heading {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.sort-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.paragraph {
+  font-size: 16px;
+}
+.text-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 100px;
+  width: 1150px;
+}
+.backcolor-1 {
+  background-color: #99bcec;
+  margin: 15px;
+  padding: 10px;
+  width: 400px;
+  height: auto;
+  border-radius: 8px;
+  text-align: left;
+}
+.backcolor-2 {
+  background-color: #c6e4d6;
+  margin: 15px;
+  padding: 10px;
+  width: 400px;
+  height: auto;
+  border-radius: 8px;
+  text-align: left;
+}
+.backcolor-3 {
+  background-color: #f7ebcf;
+  margin: 15px;
+  padding: 10px;
+  width: 400px;
+  height: auto;
+  border-radius: 8px;
+  text-align: left;
+}
+.btn-1 {
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  background: #5490f5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 15px;
+  padding: 10px 25px 10px 25px;
+  border: none;
+}
+.btn-1:hover {
+  background-color: rgb(8, 64, 110);
+  color: rgb(235, 232, 228);
+  font-size: 16px;
+}
+.btn-2 {
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  background: #09a15c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 15px;
+  padding: 10px 25px 10px 25px;
+  border: none;
+}
+.btn-2:hover {
+  background-color: rgb(10, 68, 10);
+  color: rgb(235, 232, 228);
+  font-size: 16px;
+}
+.btn-3 {
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  background: #ffc239;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 15px;
+  padding: 10px 25px 10px 25px;
+  border: none;
+}
+.btn-3:hover {
+  background-color: rgb(167, 130, 8);
+  color: rgb(235, 232, 228);
+  font-size: 16px;
+}
+.img {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  width: 60px;
+  height: 60px;
+}
+.text-3 {
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: 15px 9px;
+  width: 1123px;
+  margin: 15px 110px 30px 112px;
+  padding: 30px 15px;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  /* background: rgb(255, 255, 255); */
+}
+.Dr-younus-name {
+  font-size: 20px;
+  color: #0e0e0e;
+  font-family: Fira Sans;
+  /* padding-bottom: 10px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.work {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 15px;
 }
 /* End Main Section Styles */
 
